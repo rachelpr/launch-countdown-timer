@@ -1,0 +1,66 @@
+body {
+  font-family: "Red Hat Text", sans-serif;
+  background-color: hsl(235, 16%, 14%);
+}
+
+.main-container {
+  margin: 0 auto;
+  margin-top: 8rem;
+  padding: 1em;
+  background-image: url(./images/bg-stars.svg);
+  max-width: 999px;
+}
+
+.main-container h1 {
+  color: hsl(0, 0%, 100%);
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.countdown {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 2rem;
+}
+
+.container-day,
+.container-hour,
+.container-minute,
+.container-second {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: hsl(345, 95%, 68%);
+  padding: 0.5rem;
+}
+
+.container-day h3,
+.container-hour h3,
+.container-minute h3,
+.container-second h3 {
+  background-color: hsl(236, 21%, 26%);
+  border-radius: 7px;
+  width: 50px;
+  padding: 0.75rem 0.5rem;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.container-day p,
+.container-hour p,
+.container-minute p,
+.container-second p {
+  font-size: 7px;
+  color: hsl(237, 18%, 59%);
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  max-width: 100%;
+}
